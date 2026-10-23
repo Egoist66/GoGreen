@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@api/*": ["./api/*"],
+      "@shared/*": ["./shared/*"]
+    },
+    "types": ["bun-types"],
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true
+  },
+  "include": ["src/**/*", "api/**/*", "shared/**/*", "vite.config.ts"]
+}
